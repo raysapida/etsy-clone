@@ -15,6 +15,7 @@ gem 'paperclip'
 gem 'puma'
 gem 'paperclip-dropbox'
 gem 'figaro'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug'
