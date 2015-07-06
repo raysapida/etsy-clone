@@ -14,6 +14,7 @@ gem 'bootstrap-sass'
 gem 'paperclip'
 gem 'puma'
 gem 'paperclip-dropbox'
+gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
