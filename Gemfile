@@ -16,6 +16,7 @@ gem 'puma'
 gem 'paperclip-dropbox'
 gem 'figaro'
 gem 'devise'
+gem 'stripe'
 
 group :development, :test do
   gem 'byebug'
