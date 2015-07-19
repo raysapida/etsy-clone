@@ -17,6 +17,7 @@ gem 'paperclip-dropbox'
 gem 'figaro'
 gem 'devise'
 gem 'stripe'
+gem 'faker'
 
 group :development, :test do
   gem 'byebug'
