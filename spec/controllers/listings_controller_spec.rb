@@ -21,6 +21,7 @@ RSpec.describe ListingsController, type: :controller do
 
   describe "GET #index" do
     it "assigns all listings as @listings" do
+      sign_in :user, user
       listing = Listing.create! valid_attributes
       get :index, {}, valid_session
       expect(assigns(:listings)).to eq([listing])
